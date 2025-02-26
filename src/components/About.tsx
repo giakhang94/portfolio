@@ -1,5 +1,4 @@
 import { ABOUT_TEXT } from "../constants/constant";
-import aboutImg from "../assets/about.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay: number) => {

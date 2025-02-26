@@ -53,14 +53,15 @@ export const EXPERIENCES = [
 
 export const OTHER_PROJECTS = [
   {
-    title: "Find Videos - MERN Stack",
-    image: shareVideo,
+    title: "Jobify - Fullstack",
+    image: project2,
     description:
-      "A web platform for creating video cards with tags and categories. Users can search by tags and categories to find relevant videos. Role-based access control for users, authenticated members, and admins",
-    technologies: ["Typescript", "TailwindCSS", "React", "Node.js", "MongoDB"],
-    git: "https://github.com/giakhang94/mern-share-videos",
-    demo: "https://mern-share-videos.onrender.com/",
+      "Jobify is a MERN stack job portal that allows users to create accounts, post job listings, and view analytics an so on..",
+    technologies: ["Node.js", "TailwindCSS", "ReactJS", "MongoDB", "Express"],
+    git: "https://github.com/giakhang94/mern-jobify-production",
+    demo: "https://mern-jobify-nzoj.onrender.com/landing",
   },
+
   {
     title: "Cooking App - MERN stack",
     image: cookingApp,
@@ -115,14 +116,15 @@ export const PROJECTS = [
       "A booking platform for home services where customers can schedule, manage, and cancel appointments. Admins can add new services and manage orders.",
     technologies: ["Typescript", "TailwindCSS", "React", "Node.js", "MongoDB"],
   },
+
   {
-    title: "Jobify - Fullstack",
-    image: project2,
+    title: "Find Videos - MERN Stack",
+    image: shareVideo,
     description:
-      "Jobify is a MERN stack job portal that allows users to create accounts, post job listings, and view analytics an so on..",
-    technologies: ["Node.js", "TailwindCSS", "ReactJS", "MongoDB", "Express"],
-    git: "https://github.com/giakhang94/mern-jobify-production",
-    demo: "https://mern-jobify-nzoj.onrender.com/landing",
+      "A web platform for creating video cards with tags and categories. Users can search by tags and categories to find relevant videos. Role-based access control for users, authenticated members, and admins",
+    technologies: ["Typescript", "TailwindCSS", "React", "Node.js", "MongoDB"],
+    git: "https://github.com/giakhang94/mern-share-videos",
+    demo: "https://mern-share-videos.onrender.com/",
   },
   {
     title: "Furniture Showroom - Fullstack NextJS",
@@ -146,6 +148,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["ReactJS", "TailwindCSS", "framer-motion"],
+    git: "https://github.com/giakhang94/portfolio",
+    demo: "",
   },
 ];
 
