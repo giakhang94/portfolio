@@ -20,8 +20,8 @@ const containerRight = (delay: number) => {
 
 function About(): React.JSX.Element {
   return (
-    <div id="edu" className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">
+    <div id="edu" className="border-b border-neutral-900 pb-10">
+      <h1 className="mt-20 mb-5 text-center text-4xl">
         About
         <span className="text-neutral-500"> Me</span>
       </h1>
@@ -30,7 +30,7 @@ function About(): React.JSX.Element {
           variants={container(0)}
           initial="hidden"
           whileInView="visible"
-          className="w-full lg:w-1/2 lg:p-8 mt-5"
+          className="w-full lg:w-1/2 lg:p-8"
         >
           <p className="font-bold">Education: Banking University</p>
           <ol className="block list-disc pl-6 font-thin">

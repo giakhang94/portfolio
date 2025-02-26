@@ -4,6 +4,9 @@ interface ProjectItem {
   title: string;
   image: string;
   description: string;
+  git: string;
+  demo: string;
+  fullstack?: boolean;
   technologies: string[];
 }
 
@@ -31,12 +34,26 @@ function OtherProjects() {
               className="border-b border-neutral-600 pb-4"
               key={index + "projects"}
             >
-              <div className="w-full max-w-[350px] ">
+              <div className="w-full max-w-[350px] relative group ">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="mb-6 object-cover w-full lg:h-50 h-[250px] lg:min-w-50 min-w-[300px] rounded-md"
                 />
+                <div className="absolute hidden group-hover:block top-0 right-0 z-5 w-full h-full rounded-md bg-gray-200 opacity-50"></div>
+                <div className="absolute hidden hover:opacity-80 group-hover:flex items-center justify-center space-x-8 text-black font-medium text-xl top-0 right-0 z-10 w-full h-full rounded-md bg-transparent">
+                  <a className="hover:text-blue-700" href={project.demo}>
+                    Demo
+                  </a>
+                  <a className="hover:text-blue-700" href={project.git}>
+                    Git Repo
+                  </a>
+                  {project.fullstack && (
+                    <p className="absolute bottom-2 text-sm left-1">
+                      Please allow about 1 minute for the page to finish loading
+                    </p>
+                  )}
+                </div>
               </div>
               <div className="w-full max-w-[350px]">
                 <h6 className="mb-2 font-semibold">{project.title}</h6>

@@ -45,14 +45,55 @@ function Hero(): React.JSX.Element {
               variants={container(0.25)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl font-light tracking-tighter text-justify"
+              className="my-2 max-w-xl font-light tracking-tighter text-justify leading-8"
             >
-              {HERO_CONTENT}
+              Fullstack experience with{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                Node.js
+              </span>
+              ,{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                React.js
+              </span>
+              ,{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                Typescript
+              </span>
+              ,{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                Express
+              </span>
+              ,{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                NestJS
+              </span>
+              ,{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                MySQL
+              </span>
+              ,{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                MongoDB
+              </span>{" "}
+              and related packages such as{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                Redux
+              </span>
+              ,{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                reactQuery
+              </span>
+              ,... Design responsive website using{" "}
+              <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
+                TailwindCSS
+              </span>
+              . Be able to keep up with necessary updates. Proficient in
+              English, can communicate effectively with colleagues and clients.
             </motion.p>
           </div>
         </div>
         <motion.a
-          href="https://drive.google.com/file/d/19cSt5ZvWBLpzmlCQ7OEvA5WMV80l3s1o/view"
+          href="https://drive.google.com/file/d/1N59cl-bdmEt2Ja7vNfhofx2bp2SV4DMx/view?usp=sharing"
           variants={containerRight(0.25)}
           target="_blank"
           initial="hidden"

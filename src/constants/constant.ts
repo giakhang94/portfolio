@@ -60,6 +60,7 @@ export const OTHER_PROJECTS = [
     technologies: ["Node.js", "TailwindCSS", "ReactJS", "MongoDB", "Express"],
     git: "https://github.com/giakhang94/mern-jobify-production",
     demo: "https://mern-jobify-nzoj.onrender.com/landing",
+    fullstack: true,
   },
 
   {
@@ -70,6 +71,7 @@ export const OTHER_PROJECTS = [
     technologies: ["Node.js", "TailwindCSS", "ReactJS", "MongoDB", "Express"],
     git: "https://github.com/giakhang94/cooking-app",
     demo: "https://mern-cookingapp.onrender.com/",
+    fullstack: true,
   },
   {
     title: "Real estate website - ReactJS",
@@ -79,6 +81,7 @@ export const OTHER_PROJECTS = [
     technologies: ["ReactJS", "TailwindCSS", "firebase"],
     git: "https://github.com/giakhang94/real-me",
     demo: "https://real-me-sage.vercel.app/",
+    fullstack: false,
   },
   {
     title: "Realtime Chat - NodeJS",
@@ -87,6 +90,7 @@ export const OTHER_PROJECTS = [
       "A real-time chat application built with Node.js, React, and Socket.io.",
     technologies: ["NextJS", "ReactJS", "CSS", "socket.io"],
     demo: "https://chatapp2-socketio.onrender.com/",
+    fullstack: true,
     git: "https://github.com/giakhang94/chatapp2",
   },
   {
@@ -97,6 +101,7 @@ export const OTHER_PROJECTS = [
     technologies: ["ReactJS", "CSS", "Flex-box"],
     git: "https://github.com/giakhang94/foodshop",
     demo: "https://foodshop-virid.vercel.app/",
+    fullstack: false,
   },
   {
     title: "Music Player - Javascript",
@@ -106,6 +111,7 @@ export const OTHER_PROJECTS = [
     technologies: ["ReactJS", "CSS", "Flex-box"],
     git: "https://github.com/giakhang94/JSMusicPlayer",
     demo: "https://js-music-player-one.vercel.app/",
+    fullstack: false,
   },
 ];
 export const PROJECTS = [
@@ -115,6 +121,9 @@ export const PROJECTS = [
     description:
       "A booking platform for home services where customers can schedule, manage, and cancel appointments. Admins can add new services and manage orders.",
     technologies: ["Typescript", "TailwindCSS", "React", "Node.js", "MongoDB"],
+    git: "https://github.com/giakhang94/maylanh",
+    demo: "https://maylanh.onrender.com/",
+    fullstack: true,
   },
 
   {
@@ -125,6 +134,7 @@ export const PROJECTS = [
     technologies: ["Typescript", "TailwindCSS", "React", "Node.js", "MongoDB"],
     git: "https://github.com/giakhang94/mern-share-videos",
     demo: "https://mern-share-videos.onrender.com/",
+    fullstack: true,
   },
   {
     title: "Furniture Showroom - Fullstack NextJS",
@@ -141,6 +151,7 @@ export const PROJECTS = [
     ],
     git: "https://github.com/giakhang94/next-store-mongodb",
     demo: "https://next-store-mongodb.vercel.app/",
+    fullstack: true,
   },
   {
     title: "Portfolio Website",
@@ -149,7 +160,8 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["ReactJS", "TailwindCSS", "framer-motion"],
     git: "https://github.com/giakhang94/portfolio",
-    demo: "",
+    demo: "https://portfolio-woad-two-34.vercel.app/",
+    fullstack: false,
   },
 ];
 
