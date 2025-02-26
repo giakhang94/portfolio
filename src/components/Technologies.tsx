@@ -27,8 +27,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4"
         >
-          <RiNodejsLine className="text-5xl text-green-400" />
-          <p className="text-md">Node.js</p>
+          <RiNodejsLine className="lg:text-5xl md:text-xl sm:text-xl text-green-400" />
+          <p className="lg:text-md md:text-sm">Node.js</p>
         </motion.div>
         <motion.div
           initial={{ y: 8 }}
@@ -43,8 +43,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <SiNestjs className="text-5xl text-red-500" />
-          <p className="text-md">Nest.js</p>
+          <SiNestjs className="lg:text-5xl md:text-2xl sm:text-xl text-red-500" />
+          <p className="lg:text-md md:text-sm">Nest.js</p>
         </motion.div>
         <motion.div
           initial={{ y: 6 }}
@@ -59,8 +59,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <RiReactjsLine className="text-5xl text-cyan-400" />
-          <p className="text-md">React.js</p>
+          <RiReactjsLine className="lg:text-5xl md:text-xl sm:text-xl text-cyan-400" />
+          <p className="lg:text-md md:text-sm">React.js</p>
         </motion.div>
         <motion.div
           initial={{ y: 4 }}
@@ -75,8 +75,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <RiNextjsLine className="text-5xl text-gray-200" />
-          <p className="text-md">Next.js</p>
+          <RiNextjsLine className="lg:text-5xl md:text-xl sm:text-xl text-gray-200" />
+          <p className="lg:text-md md:text-sm">Next.js</p>
         </motion.div>
         <motion.div
           initial={{ y: 2 }}
@@ -91,8 +91,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <SiTypescript className="text-5xl text-blue-500" />
-          <p className="text-md">Typescript</p>
+          <SiTypescript className="lg:text-5xl md:text-xl sm:text-xl text-blue-500" />
+          <p className="lg:text-md md:text-sm">Typescript</p>
         </motion.div>
         <motion.div
           initial={{ y: 1 }}
@@ -107,8 +107,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <DiMysql className="text-5xl text-cyan-400" />
-          <p className="text-md">MySQL</p>
+          <DiMysql className="lg:text-5xl md:text-xl sm:text-xl text-cyan-400" />
+          <p className="lg:text-md md:text-sm">MySQL</p>
         </motion.div>
         <motion.div
           initial={{ y: -2 }}
@@ -123,8 +123,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <SiMongodb className="text-5xl text-green-600" />
-          <p className="text-md">MongoDB</p>
+          <SiMongodb className="lg:text-5xl md:text-xl sm:text-xl text-green-600" />
+          <p className="lg:text-md md:text-sm">MongoDB</p>
         </motion.div>
         <motion.div
           initial={{ y: 10 }}
@@ -139,8 +139,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <FaDocker className="text-5xl text-blue-600" />
-          <p className="text-md">Docker</p>
+          <FaDocker className="lg:text-5xl md:text-xl sm:text-xl text-blue-600" />
+          <p className="lg:text-md md:text-sm">Docker</p>
         </motion.div>
         <motion.div
           initial={{ y: 10 }}
@@ -155,8 +155,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <RiTailwindCssFill className="text-5xl text-teal-400" />
-          <p className="text-md">Tailwindcss</p>
+          <RiTailwindCssFill className="lg:text-5xl md:text-xl sm:text-xl text-teal-400" />
+          <p className="lg:text-md md:text-sm">Tailwindcss</p>
         </motion.div>
       </div>
     </div>

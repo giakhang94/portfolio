@@ -20,7 +20,7 @@ const containerRight = (delay: number) => {
 
 function Hero(): React.JSX.Element {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg-mb-10">
+    <div className="border-b border-neutral-900 pb-4 lg-mb-10 lg:mt-1 mt-5">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -28,7 +28,7 @@ function Hero(): React.JSX.Element {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-8 text-6xl font-thin tracking-[1px] lg:mt-16"
+              className="pb-8 text-3xl lg:text-6xl font-thin tracking-[1px] lg:mt-16"
             >
               Nguyen Gia Khang
             </motion.h1>
@@ -36,7 +36,7 @@ function Hero(): React.JSX.Element {
               variants={container(0.15)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-xl lg:text-4xl tracking-tight text-transparent"
             >
               Full Stack Web Developer
             </motion.span>
@@ -99,7 +99,7 @@ function Hero(): React.JSX.Element {
           animate="visible"
           className="w-full lg:w-1/2 lg:p-8 rounded-md relative block"
         >
-          <motion.a
+          <motion.p
             initial={{ y: 10 }}
             animate={{
               y: [10, -10],
@@ -110,12 +110,10 @@ function Hero(): React.JSX.Element {
                 duration: 1.2,
               },
             }}
-            href="https://drive.google.com/file/d/19cSt5ZvWBLpzmlCQ7OEvA5WMV80l3s1o/view"
-            target="_blank"
             className="absolute z-5 top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 bg-gray-300 py-2 px-5 rounded-md text-xl opacity-70 text-neutral-800 tracking-[1px] font-medium"
           >
             View my Resume
-          </motion.a>
+          </motion.p>
           <img src={resume} alt="" className="w-auto rounded-md blur-[3px]" />
         </motion.a>
       </div>

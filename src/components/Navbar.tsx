@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 function Navbar(): React.JSX.Element {
   return (
-    <nav className="mb-8 bg-black flex items-center justify-between py-6 sticky z-10 top-0 w-full px-1">
+    <nav className="hidden mb-8 bg-black lg:flex items-center justify-between py-6 sticky z-10 top-0 w-full px-1">
       <Logo />
       <div className="lg:flex items-center justify-between hidden  space-x-15 px-2 text-xl">
         <a className="font-thin text-md" href="#projects">

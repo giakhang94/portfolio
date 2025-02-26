@@ -1,6 +1,6 @@
 function Logo() {
   return (
-    <a href="/" className="block text-2xl tracking-[3px]">
+    <a href="/" className="block text-2xl  tracking-[3px]">
       NGK
     </a>
   );

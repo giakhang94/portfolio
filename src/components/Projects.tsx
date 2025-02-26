@@ -28,24 +28,30 @@ function Projects() {
         {PROJECTS.map((project: ProjectItem, index: number) => {
           return (
             <motion.div
-              variants={container(0.3)}
+              variants={container(0.1)}
               initial="hidden"
               whileInView="visible"
               className="border-b border-neutral-600 pb-4"
               key={index + "projects"}
             >
-              <div className="w-full max-w-[350px] relative group">
+              <div className="w-full max-w-[350px] relative group ">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="mb-6 object-cover w-full lg:min-w-50 min-w-[300px] rounded-md"
                 />
-                <div className="absolute hidden group-hover:block top-0 right-0 z-5 w-full h-full rounded-md bg-gray-200 opacity-50"></div>
-                <div className="absolute hidden group-hover:flex items-center justify-center space-x-8 text-black font-medium text-xl top-0 right-0 z-10 w-full h-full rounded-md bg-transparent">
-                  <a className="hover:text-blue-700" href={project.demo}>
+                <div className="absolute hidden group-hover:block group-focus:block top-0 right-0 z-5 w-full h-full rounded-md bg-gray-200 opacity-50"></div>
+                <div className="absolute hidden group-hover:flex group-focus:flex items-center justify-center space-x-8 text-black font-medium text-xl top-0 right-0 z-10 w-full h-full rounded-md bg-transparent">
+                  <a
+                    className="hover:text-blue-700 active:text-blue-700"
+                    href={project.demo}
+                  >
                     Demo
                   </a>
-                  <a className="hover:text-blue-700" href={project.git}>
+                  <a
+                    className="hover:text-blue-700 active:text-blue-700"
+                    href={project.git}
+                  >
                     Git Repo
                   </a>
                   {project.fullstack && (
