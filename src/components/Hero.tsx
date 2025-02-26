@@ -28,7 +28,7 @@ function Hero(): React.JSX.Element {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-[1px] lg:mt-16"
+              className="pb-8 text-6xl font-thin tracking-[1px] lg:mt-16"
             >
               Nguyen Gia Khang
             </motion.h1>
@@ -44,7 +44,7 @@ function Hero(): React.JSX.Element {
               variants={container(0.25)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl font-light tracking-tighter text-justify leading-8"
+              className="my-5 max-w-xl font-light tracking-tighter text-justify leading-8"
             >
               Fullstack experience with{" "}
               <span className="bg-gray-300 text-gray-800  font-medium opacity-50 px-2 py-1 mx-[1px] rounded-sm">
