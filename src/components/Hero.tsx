@@ -20,7 +20,7 @@ const containerRight = (delay: number) => {
 
 function Hero(): React.JSX.Element {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg-mb-10 lg:mt-1 mt-5">
+    <div className="border-b border-neutral-900 pb-4 lg-mb-10 lg:mt-1 mt-4">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -28,7 +28,7 @@ function Hero(): React.JSX.Element {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-8 text-3xl lg:text-6xl font-thin tracking-[1px] lg:mt-16"
+              className="pb-8 text-3xl lg:text-5xl font-thin tracking-[1px] lg:mt-10"
             >
               Nguyen Gia Khang
             </motion.h1>

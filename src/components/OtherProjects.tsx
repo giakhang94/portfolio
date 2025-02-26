@@ -63,6 +63,20 @@ function OtherProjects() {
               </div>
               <div className="w-full max-w-[350px]">
                 <h6 className="mb-2 font-semibold">{project.title}</h6>
+                <div className="flex items-center space-x-8 lg:hidden mb-2">
+                  <a
+                    className="hover:text-blue-700 active:text-blue-700"
+                    href={project.demo}
+                  >
+                    Demo Link
+                  </a>
+                  <a
+                    className="hover:text-blue-700 active:text-blue-700"
+                    href={project.git}
+                  >
+                    Git Repo Link
+                  </a>
+                </div>
                 <p className="mb-2 text-sm text-neutral-400 w-full lg:text-wrap">
                   {project.description}
                 </p>
