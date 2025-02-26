@@ -44,12 +44,14 @@ function Projects() {
                 <div className="absolute hidden group-hover:flex group-focus:flex items-center justify-center space-x-8 text-black font-medium text-xl top-0 right-0 z-10 w-full h-full rounded-md bg-transparent">
                   <a
                     className="hover:text-blue-700 active:text-blue-700"
+                    target="_blank"
                     href={project.demo}
                   >
                     Demo
                   </a>
                   <a
                     className="hover:text-blue-700 active:text-blue-700"
+                    target="_blank"
                     href={project.git}
                   >
                     Git Repo
@@ -66,12 +68,14 @@ function Projects() {
                 <div className="flex items-center space-x-8 lg:hidden mb-2">
                   <a
                     className="hover:text-blue-700 active:text-blue-700"
+                    target="_blank"
                     href={project.demo}
                   >
                     Demo Link
                   </a>
                   <a
                     className="hover:text-blue-700 active:text-blue-700"
+                    target="_blank"
                     href={project.git}
                   >
                     Git Repo Link
