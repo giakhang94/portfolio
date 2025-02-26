@@ -92,7 +92,7 @@ function Hero(): React.JSX.Element {
           </div>
         </div>
         <motion.a
-          href="https://drive.google.com/file/d/1N59cl-bdmEt2Ja7vNfhofx2bp2SV4DMx/view?usp=sharing"
+          href="https://drive.google.com/file/d/1KWImhTipphQQKcYHHgM9aQdLjJWy9hRP/view?usp=sharing"
           variants={containerRight(0.25)}
           target="_blank"
           initial="hidden"
