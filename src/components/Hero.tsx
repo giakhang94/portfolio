@@ -1,5 +1,4 @@
 import resume from "../assets/resume.jpg";
-import { HERO_CONTENT } from "../constants/constant";
 import { motion } from "framer-motion";
 
 const container = (delay: number) => {
