@@ -33,18 +33,19 @@ function About(): React.JSX.Element {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <p className="font-bold">Education: Banking University</p>
-          <ol className="block list-disc pl-6 font-thin">
-            <li className="text-md">Finance: Good degree</li>
+          <ol className="block list-disc pl-6 font-light">
             <li className="text-md">
               Management Information System: Good degree
             </li>
+            <li className="text-md">Finance: Good degree</li>
           </ol>
-          <p className="pl-6">
-            Graduation Thesis: Reversal Candlestick Pattern Detection System
-            (Stock Market) using PHP, HTML, CSS - Score: 8.9
+          <p className="pl-6 font-light">
+            <span className="font-medium">Graduation Thesis</span>: Reversal
+            Candlestick Pattern Detection System (Stock Market) using PHP, HTML,
+            CSS - <span className="font-medium">Score: 8.9</span>
           </p>
           <p className="font-bold my-1">Other Certificates</p>
-          <ol className="block list-disc pl-6 font-thin">
+          <ol className="block list-disc pl-6 font-light">
             <li className="text-md">
               <span className="font-medium">TOEIC 835</span> - Valid until
               10/2026
