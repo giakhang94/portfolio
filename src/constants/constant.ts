@@ -107,7 +107,7 @@ export const OTHER_PROJECTS = [
     title: "Music Player - Javascript",
     image: musicPlayer,
     description:
-      "A simple website displaying various types of food using ReactJS. One of my first React projects",
+      "A simple music player using HTML CSS and JS. One of my first React projects",
     technologies: ["ReactJS", "CSS", "Flex-box"],
     git: "https://github.com/giakhang94/JSMusicPlayer",
     demo: "https://js-music-player-one.vercel.app/",
