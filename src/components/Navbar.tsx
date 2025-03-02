@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 function Navbar(): React.JSX.Element {
   return (
-    <nav className="hidden mb-8 bg-black lg:flex items-center justify-between py-6 sticky z-10 top-0 w-full px-1">
+    <nav className="hidden mb-8 bg-black/90 lg:flex items-center justify-between py-6 sticky z-10 top-0 w-full px-1">
       <Logo />
       <div className="lg:flex items-center justify-between hidden  space-x-15 px-2 text-xl">
         <Link
@@ -27,7 +27,7 @@ function Navbar(): React.JSX.Element {
           to="contact"
           duration={500}
           smooth={true}
-          className="font-thin text-md hover:font-medium hover:scale-105 cursor-pointer"
+          className="font-thin text-md hover:font-medium hover:scale-[101%] cursor-pointer"
         >
           Contact
         </Link>
