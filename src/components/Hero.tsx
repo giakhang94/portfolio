@@ -1,6 +1,6 @@
 import resume from "../assets/resume.jpg";
 import { motion } from "framer-motion";
-
+import { CV_LINK } from "../constant";
 const container = (delay: number) => {
   return {
     hidden: { x: -100, opacity: 0 },
@@ -95,7 +95,7 @@ function Hero(): React.JSX.Element {
           </div>
         </div>
         <motion.a
-          href="https://drive.google.com/file/d/1KWImhTipphQQKcYHHgM9aQdLjJWy9hRP/view?usp=sharing"
+          href={CV_LINK}
           variants={containerRight(0.25)}
           target="_blank"
           initial="hidden"
@@ -105,12 +105,12 @@ function Hero(): React.JSX.Element {
           <motion.p
             initial={{ y: 10 }}
             animate={{
-              y: [10, -10],
+              y: [5, -3],
               transition: {
                 repeat: Infinity,
                 ease: "linear",
                 repeatType: "reverse",
-                duration: 1.2,
+                duration: 1,
               },
             }}
             className="absolute z-5 top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 bg-gray-300 py-2 px-5 rounded-md text-xl opacity-70 text-neutral-800 tracking-[1px] font-medium"
