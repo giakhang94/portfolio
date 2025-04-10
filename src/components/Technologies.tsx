@@ -1,5 +1,5 @@
 import { DiMysql } from "react-icons/di";
-import { FaDocker } from "react-icons/fa";
+import { FaAws, FaDocker } from "react-icons/fa";
 import {
   RiNextjsLine,
   RiNodejsLine,
@@ -7,7 +7,7 @@ import {
   RiTailwindCssFill,
 } from "react-icons/ri";
 import websocket from "../assets/icons/websocket-svgrepo-com.svg";
-import { SiNestjs, SiTypescript, SiMongodb } from "react-icons/si";
+import { SiNestjs, SiTypescript, SiMongodb, SiJest } from "react-icons/si";
 import { motion } from "framer-motion";
 
 function Technologies() {
@@ -145,6 +145,40 @@ function Technologies() {
             src={websocket}
           />
           <p className="lg:text-md md:text-sm">Websocket</p>
+        </motion.div>
+        <motion.div
+          initial={{ y: 10 }}
+          animate={{
+            y: [5, -10],
+            transition: {
+              repeat: Infinity,
+              ease: "linear",
+              repeatType: "reverse",
+              duration: 1.2,
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-27  flex flex-col items-center justify-center"
+        >
+          <SiJest className="lg:text-5xl md:text-xl sm:text-xl text-red-600" />
+
+          <p className="lg:text-md md:text-sm">Unit Test</p>
+        </motion.div>
+        <motion.div
+          initial={{ y: 10 }}
+          animate={{
+            y: [5, -10],
+            transition: {
+              repeat: Infinity,
+              ease: "linear",
+              repeatType: "reverse",
+              duration: 1.2,
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-27  flex flex-col items-center justify-center"
+        >
+          <FaAws className="lg:text-5xl md:text-xl sm:text-xl text-orange-300" />
+
+          <p className="lg:text-md md:text-sm">EC2</p>
         </motion.div>
         <motion.div
           initial={{ y: 10 }}
