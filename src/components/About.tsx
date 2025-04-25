@@ -32,7 +32,12 @@ function About(): React.JSX.Element {
           whileInView="visible"
           className="w-full lg:w-1/2 lg:p-8"
         >
-          <p className="font-bold">Education: Banking University</p>
+          <p className="font-bold">
+            Education: Banking University{" "}
+            <span className="text-[1px] text-transparent">
+              Bach Khoa University - Polyme Technology (have not graduated)
+            </span>
+          </p>
           <ol className="block list-disc pl-6 font-light">
             <li className="text-md">
               Management Information System: Good degree

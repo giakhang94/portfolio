@@ -37,7 +37,7 @@ function Navbar(): React.JSX.Element {
           smooth={true}
           className="font-thin text-md hover:font-medium hover:scale-105 cursor-pointer"
         >
-          Education & Certificates
+          Education & Certifications
         </Link>
       </div>
       <div className="flex items-center justify-center space-x-5 px-2 text-2xl">
