@@ -1,6 +1,7 @@
 import { DiMysql } from "react-icons/di";
 import { FaAws, FaDocker } from "react-icons/fa";
 import {
+  RiGithubFill,
   RiNextjsLine,
   RiNodejsLine,
   RiReactjsLine,
@@ -130,6 +131,38 @@ function Technologies() {
         <motion.div
           initial={{ y: 10 }}
           animate={{
+            y: [20, -15],
+            transition: {
+              repeat: Infinity,
+              ease: "linear",
+              repeatType: "reverse",
+              duration: 1.2,
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
+        >
+          <RiTailwindCssFill className="lg:text-5xl md:text-xl sm:text-xl text-teal-400" />
+          <p className="lg:text-md md:text-sm">Tailwindcss</p>
+        </motion.div>
+        <motion.div
+          initial={{ y: 10 }}
+          animate={{
+            y: [20, -15],
+            transition: {
+              repeat: Infinity,
+              ease: "linear",
+              repeatType: "reverse",
+              duration: 1.2,
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
+        >
+          <RiGithubFill className="lg:text-5xl md:text-xl sm:text-xl text-white" />
+          <p className="lg:text-md md:text-sm">Github</p>
+        </motion.div>
+        <motion.div
+          initial={{ y: 10 }}
+          animate={{
             y: [5, -10],
             transition: {
               repeat: Infinity,
@@ -195,22 +228,6 @@ function Technologies() {
         >
           <FaDocker className="lg:text-5xl md:text-xl sm:text-xl text-blue-600" />
           <p className="lg:text-md md:text-sm">Docker</p>
-        </motion.div>
-        <motion.div
-          initial={{ y: 10 }}
-          animate={{
-            y: [20, -15],
-            transition: {
-              repeat: Infinity,
-              ease: "linear",
-              repeatType: "reverse",
-              duration: 1.2,
-            },
-          }}
-          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
-        >
-          <RiTailwindCssFill className="lg:text-5xl md:text-xl sm:text-xl text-teal-400" />
-          <p className="lg:text-md md:text-sm">Tailwindcss</p>
         </motion.div>
       </div>
     </div>
