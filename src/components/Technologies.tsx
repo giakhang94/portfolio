@@ -15,6 +15,7 @@ function Technologies() {
   return (
     <div className="border-b border-neutral-800 pb-20" id="skills">
       <h1 className="my-20 text-center text-4xl">Technologies</h1>
+      <h2 className="my-5 text-2xl">Good Practice:</h2>
       <div className="flex flex-wrap lg:flex-row items-center justify-center gap-4">
         <motion.div
           initial={{ y: 10 }}
@@ -64,22 +65,7 @@ function Technologies() {
           <RiReactjsLine className="lg:text-5xl md:text-xl sm:text-xl text-cyan-400" />
           <p className="lg:text-md md:text-sm">React.js</p>
         </motion.div>
-        <motion.div
-          initial={{ y: 4 }}
-          animate={{
-            y: [10, -10],
-            transition: {
-              repeat: Infinity,
-              ease: "linear",
-              repeatType: "reverse",
-              duration: 1.2,
-            },
-          }}
-          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
-        >
-          <RiNextjsLine className="lg:text-5xl md:text-xl sm:text-xl text-gray-200" />
-          <p className="lg:text-md md:text-sm">Next.js</p>
-        </motion.div>
+
         <motion.div
           initial={{ y: 2 }}
           animate={{
@@ -159,6 +145,25 @@ function Technologies() {
         >
           <RiGithubFill className="lg:text-5xl md:text-xl sm:text-xl text-white" />
           <p className="lg:text-md md:text-sm">Github</p>
+        </motion.div>
+      </div>
+      <h2 className="text-2xl mt-10">Familiar with: </h2>
+      <div className="flex justify-center space-x-5">
+        <motion.div
+          initial={{ y: 4 }}
+          animate={{
+            y: [10, -10],
+            transition: {
+              repeat: Infinity,
+              ease: "linear",
+              repeatType: "reverse",
+              duration: 1.2,
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
+        >
+          <RiNextjsLine className="lg:text-5xl md:text-xl sm:text-xl text-gray-200" />
+          <p className="lg:text-md md:text-sm">Next.js</p>
         </motion.div>
         <motion.div
           initial={{ y: 10 }}
