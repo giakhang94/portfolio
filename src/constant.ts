@@ -1,2 +1,2 @@
 export const CV_LINK =
-  "hhttps://drive.google.com/file/d/1_X8ZBf_MOnx71eKQaAz4cCp2-JPidO9u/view?usp=sharing";
+  "https://drive.google.com/file/d/1MAStL0eFovyd4AtFgXCw3Qi6alFw3zrl/view?usp=sharing";
