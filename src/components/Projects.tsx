@@ -5,7 +5,7 @@ interface ProjectItem {
   image: string;
   description: string;
   git: string;
-  demo: string;
+  demo?: string;
   fullstack?: boolean;
   technologies: string[];
 }
@@ -42,13 +42,15 @@ function Projects() {
                 />
                 <div className="absolute hidden group-hover:block group-focus:block top-0 right-0 z-5 w-full h-full rounded-md bg-gray-200 opacity-50"></div>
                 <div className="absolute hidden group-hover:flex group-focus:flex items-center justify-center space-x-8 text-black font-medium text-xl top-0 right-0 z-10 w-full h-full rounded-md bg-transparent">
-                  <a
-                    className="hover:text-blue-700 active:text-blue-700"
-                    target="_blank"
-                    href={project.demo}
-                  >
-                    Demo
-                  </a>
+                  {project.demo && (
+                    <a
+                      className="hover:text-blue-700 active:text-blue-700"
+                      target="_blank"
+                      href={project.demo}
+                    >
+                      Demo
+                    </a>
+                  )}
                   <a
                     className="hover:text-blue-700 active:text-blue-700"
                     target="_blank"

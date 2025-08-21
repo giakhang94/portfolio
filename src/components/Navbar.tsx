@@ -9,7 +9,7 @@ function Navbar(): React.JSX.Element {
       <div className="lg:flex items-center justify-between hidden  space-x-15 px-2 text-xl">
         <Link
           to="projects"
-          className="cursor-pointer font-thin text-md hover:font-medium hover:scale-105"
+          className="cursor-pointer font-thin text-md hover:text-white "
           duration={500}
           smooth={true}
         >
@@ -17,7 +17,7 @@ function Navbar(): React.JSX.Element {
         </Link>
         <Link
           to="skills"
-          className="cursor-pointer font-thin text-md hover:font-medium hover:scale-105"
+          className="cursor-pointer font-thin text-md hover:text-white "
           duration={500}
           smooth={true}
         >
@@ -27,7 +27,7 @@ function Navbar(): React.JSX.Element {
           to="contact"
           duration={500}
           smooth={true}
-          className="font-thin text-md hover:font-medium hover:scale-[101%] cursor-pointer"
+          className="font-thin text-md hover:text-white  cursor-pointer"
         >
           Contact
         </Link>
@@ -35,7 +35,7 @@ function Navbar(): React.JSX.Element {
           to="edu"
           duration={500}
           smooth={true}
-          className="font-thin text-md hover:font-medium hover:scale-105 cursor-pointer"
+          className="font-thin text-md hover:text-white  cursor-pointer"
         >
           Education & Certifications
         </Link>

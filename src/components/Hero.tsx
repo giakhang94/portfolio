@@ -30,14 +30,14 @@ function Hero(): React.JSX.Element {
               animate="visible"
               className="pb-8 text-3xl lg:text-5xl font-thin tracking-[2px] lg:mt-10 "
             >
-              Nguyen Gia Khang
+              Khang Nguyễn
             </motion.h1>
             <div>
               <motion.span
                 variants={container(0.15)}
                 initial="hidden"
                 animate="visible"
-                className="bg-gradient-to-r tracking-[2px] from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-xl lg:text-4xl text-transparent"
+                className="bg-gradient-to-r tracking-[2px] from-slate-300 via-slate-500 to-purple-500 bg-clip-text text-xl lg:text-4xl text-transparent"
               >
                 Full Stack Web Developer
               </motion.span>

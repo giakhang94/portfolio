@@ -1,3 +1,4 @@
+import project0 from "../assets/projects/project-0.png";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
@@ -116,6 +117,23 @@ export const OTHER_PROJECTS = [
 ];
 export const PROJECTS = [
   {
+    title: "Blog RESTful API",
+    image: project0,
+    description:
+      "API for a blog web application. Using Nestjs (RESTful API), Docker for running MySQL, Unit test for testing and swagger for API documentation.",
+    technologies: [
+      "Typescript",
+      "NestJS",
+      "Docker",
+      "Unit test",
+      "Swagger",
+      "MySQL",
+      "Prisma",
+    ],
+    git: "https://github.com/giakhang94/nestjs-reactjs-blog",
+    fullstack: true,
+  },
+  {
     title: "ProTech Services - Fullstack",
     image: project1,
     description:
@@ -167,6 +185,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Phu Nhuan District, Ho Chi Minh City",
-  phoneNo: "0903 2829 01",
-  email: "ngk.khang94@gmail..com",
+  phoneNo: "0987 2 77774",
+  email: "khangvcsc@gmail..com",
 };
