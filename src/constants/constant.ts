@@ -131,7 +131,7 @@ export const PROJECTS = [
       "Prisma",
     ],
     git: "https://github.com/giakhang94/nestjs-reactjs-blog",
-    fullstack: true,
+    fullstack: false,
   },
   {
     title: "ProTech Services - Fullstack",
