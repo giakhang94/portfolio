@@ -1,4 +1,5 @@
 import project0 from "../assets/projects/project-0.png";
+import project00 from "../assets/projects/project-00.png";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
@@ -116,6 +117,16 @@ export const OTHER_PROJECTS = [
   },
 ];
 export const PROJECTS = [
+  {
+    title: "JLPT FlashCards",
+    image: project00,
+    description:
+      "Flashcard web app, allows users use to learn and remember Japanese Vocabularies. A card shows a Hiragana word, you can click on this card and learn more detail such as Katakana, Kanji, meaning, romaji, examples... Admin can add user, add/edit/remove cards",
+    technologies: ["NestJS", "ReactJS", "vite/TS", "Shadcn-ui", "MongoDB"],
+    git: "https://github.com/giakhang94?tab=repositories",
+    demo: "https://flashcard-luvp.onrender.com/ ",
+    fullstack: true,
+  },
   {
     title: "Blog RESTful API",
     image: project0,
