@@ -121,7 +121,7 @@ export const PROJECTS = [
     title: "JLPT FlashCards",
     image: project00,
     description:
-      "Flashcard web app, allows users use to learn and remember Japanese Vocabularies. A card shows a Hiragana word, you can click on this card and learn more detail such as Katakana, Kanji, meaning, romaji, examples... Admin can add user, add/edit/remove cards",
+      "Flashcard web app. Built for my personal use, to learn and remember JP Vocabularies. A card shows a Hiragana word, you can click on this card and learn more detail such as Katakana, Kanji, meaning, romaji, examples... Admin can add user, add/edit/remove cards",
     technologies: ["NestJS", "ReactJS", "vite/TS", "Shadcn-ui", "MongoDB"],
     git: "https://github.com/giakhang94?tab=repositories",
     demo: "https://flashcard-luvp.onrender.com/ ",
