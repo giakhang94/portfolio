@@ -118,7 +118,7 @@ export const OTHER_PROJECTS = [
 ];
 export const PROJECTS = [
   {
-    title: "JLPT FlashCards",
+    title: "JLPT FlashCards (web interface only)",
     image: project00,
     description:
       "Flashcard web app. Built for my personal use, to learn and remember JP Vocabularies. A card shows a Hiragana word, you can click on this card and learn more detail such as Katakana, Kanji, meaning, romaji, examples... Admin can add user, add/edit/remove cards",
