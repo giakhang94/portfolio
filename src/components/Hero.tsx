@@ -21,7 +21,7 @@ const containerRight = (delay: number) => {
 function Hero(): React.JSX.Element {
   return (
     <div className="border-b border-neutral-900 pb-4 lg-mb-10 lg:mt-1 mt-4">
-      <div className="flex flex-wrap">
+      <div className="flex lg:flex-row md:flex-col sm:flex-col max-android:flex-col max-iphone7:flex-col justify-center items-center ">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center  lg:items-start  xl:mt-2 h-full">
             <motion.h1
@@ -100,7 +100,7 @@ function Hero(): React.JSX.Element {
           target="_blank"
           initial="hidden"
           animate="visible"
-          className="w-full lg:w-1/2 lg:py-8 pl-8 rounded-md relative block  "
+          className="w-full lg:w-1/2 lg:py-8 lg:ml-8 rounded-md relative flex justify-center items-center"
         >
           <motion.p
             initial={{ y: 10 }}
@@ -120,7 +120,7 @@ function Hero(): React.JSX.Element {
           <img
             src={resume}
             alt=""
-            className="w-auto rounded-md blur-[3px] h-full object-cover"
+            className="w-auto rounded-md blur-[3px]h-full object-cover"
           />
         </motion.a>
       </div>

@@ -148,7 +148,7 @@ function Technologies() {
         </motion.div>
       </div>
       <h2 className="text-2xl mt-10">Familiar with: </h2>
-      <div className="flex justify-center space-x-5">
+      <div className="flex flex-wrap lg:flex-row items-center justify-center gap-4">
         <motion.div
           initial={{ y: 4 }}
           animate={{
@@ -162,7 +162,8 @@ function Technologies() {
           }}
           className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <RiNextjsLine className="lg:text-5xl md:text-xl sm:text-xl text-gray-200" />
+          {/* test css o day */}
+          <RiNextjsLine className="lg:text-5xl md:text-xl sm:text-xl" />
           <p className="lg:text-md md:text-sm">Next.js</p>
         </motion.div>
         <motion.div
@@ -176,12 +177,14 @@ function Technologies() {
               duration: 1.2,
             },
           }}
-          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-27  flex flex-col items-center justify-center"
+          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto flex flex-col items-center justify-center"
         >
-          <img
-            className="lg:text-5xl md:text-xl sm:text-xl text-blue-600 "
-            src={websocket}
-          />
+          <div className="">
+            <img
+              className="max-md:w-12 max-md:h-5 max-lg:w-15 max-lg:h-8 min-lg:h-12 min-lg:w-auto max-android:w-10 max-android:h-5"
+              src={websocket}
+            />
+          </div>
           <p className="lg:text-md md:text-sm">Websocket</p>
         </motion.div>
         <motion.div
@@ -195,11 +198,13 @@ function Technologies() {
               duration: 1.2,
             },
           }}
-          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-27  flex flex-col items-center justify-center"
+          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto  flex flex-col items-center justify-center"
         >
           <SiJest className="lg:text-5xl md:text-xl sm:text-xl text-red-600" />
 
-          <p className="lg:text-md md:text-sm">Unit Test</p>
+          <p className="lg:text-md max-md:text-sm min-sm:text-sm max-android:text-sm">
+            Unit Test
+          </p>
         </motion.div>
         <motion.div
           initial={{ y: 10 }}
@@ -212,11 +217,11 @@ function Technologies() {
               duration: 1.2,
             },
           }}
-          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-27  flex flex-col items-center justify-center"
+          className="rounded-2xl border-4 border-neutral-600 p-4 w-25 h-auto  flex flex-col items-center justify-center"
         >
           <FaAws className="lg:text-5xl md:text-xl sm:text-xl text-orange-300" />
 
-          <p className="lg:text-md md:text-sm">EC2</p>
+          <p className="lg:text-md  lg:text-2xl text-center">EC2</p>
         </motion.div>
         <motion.div
           initial={{ y: 10 }}
