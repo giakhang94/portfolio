@@ -113,9 +113,9 @@ function Hero(): React.JSX.Element {
                 duration: 1,
               },
             }}
-            className="absolute z-5 top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 bg-gray-300 py-2 px-5 rounded-md text-xl opacity-70 text-neutral-800 tracking-[1px] font-medium"
+            className="absolute  z-5 top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 bg-gray-500/40 py-2 px-5 rounded-md opacity-70 text-neutral-800 tracking-[1px] font-medium"
           >
-            View my Resume
+            <p className="text-center font-bold">View my Resume</p>
           </motion.p>
           <img
             src={resume}
